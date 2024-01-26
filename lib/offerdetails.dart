@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:get/get.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 
 class offerdetails extends StatefulWidget {
   const offerdetails({super.key});
@@ -25,8 +27,10 @@ class _offerdetailsState extends State<offerdetails> {
                   child: Row(
                     children: [
                       IconButton(
-                          onPressed: () {},
-                          icon: const Icon(
+                          onPressed: () {
+                            Get.back();
+                          },
+                          icon: Icon(
                             Icons.arrow_back,
                             color: Colors.white,
                             size: 35,
