@@ -208,7 +208,7 @@ class _dashboardState extends State<dashboard> {
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(10),
                                     image: DecorationImage(
-                                      fit: BoxFit.fill,
+                                      fit: BoxFit.cover,
                                       image:
                                           NetworkImage(items[index].thumbnail),
                                     )),
@@ -217,7 +217,7 @@ class _dashboardState extends State<dashboard> {
                                   left: 0,
                                   bottom: 0,
                                   child: Container(
-                                    padding: EdgeInsets.only(left: 10),
+                                    padding: const EdgeInsets.only(left: 10),
                                     margin: EdgeInsets.only(
                                         top: MediaQuery.sizeOf(context).height *
                                             0.12),
@@ -244,22 +244,21 @@ class _dashboardState extends State<dashboard> {
                               );
                             });
                       } else {
-                        return CircularProgressIndicator();
+                        return const CircularProgressIndicator();
                       }
-                      ;
                     }),
               ),
               const SizedBox(
                 height: 20,
               ),
               //More Offer
-              Row(
+              const Row(
                 children: [
-                  const Icon(
+                  Icon(
                     Icons.apps_outlined,
                     color: Colors.blue,
                   ),
-                  const Text("More offers"),
+                  Text("More offers"),
                 ],
               ),
 
@@ -303,7 +302,7 @@ class _dashboardState extends State<dashboard> {
                                       children: [
                                         Text(
                                           items[index].title,
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                               fontWeight: FontWeight.bold),
                                         ),
                                         Row(
@@ -320,7 +319,7 @@ class _dashboardState extends State<dashboard> {
                                                                       .circular(
                                                                           5))),
                                                   side:
-                                                      MaterialStatePropertyAll(
+                                                      const MaterialStatePropertyAll(
                                                           BorderSide(
                                                     color: Colors.blue,
                                                   ))),
@@ -328,12 +327,12 @@ class _dashboardState extends State<dashboard> {
                                                 items[index].payout_currency +
                                                     " " +
                                                     "${items[index].payout_amt}",
-                                                style: TextStyle(
+                                                style: const TextStyle(
                                                     color: Colors.blue),
                                               ),
                                               onPressed: () {},
                                             ),
-                                            Spacer(),
+                                            const Spacer(),
                                             Text(
                                               "Rs 23,567",
                                               style: TextStyle(
@@ -347,7 +346,7 @@ class _dashboardState extends State<dashboard> {
                                 );
                               });
                         } else {
-                          return CircularProgressIndicator();
+                          return const CircularProgressIndicator();
                         }
                       })),
             ]),

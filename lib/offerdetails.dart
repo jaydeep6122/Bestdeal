@@ -26,12 +26,12 @@ class _offerdetailsState extends State<offerdetails> {
                     children: [
                       IconButton(
                           onPressed: () {},
-                          icon: Icon(
+                          icon: const Icon(
                             Icons.arrow_back,
                             color: Colors.white,
                             size: 35,
                           )),
-                      Text(
+                      const Text(
                         "Offer details",
                         style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
@@ -42,7 +42,7 @@ class _offerdetailsState extends State<offerdetails> {
                 Container(
                   decoration: BoxDecoration(
                     boxShadow: [
-                      BoxShadow(
+                      const BoxShadow(
                           color: Colors.grey,
                           blurRadius: 1,
                           offset: Offset(1, 1))
@@ -70,22 +70,22 @@ class _offerdetailsState extends State<offerdetails> {
                         ),
                         Expanded(
                           child: Container(
-                            padding: EdgeInsets.only(left: 10),
+                            padding: const EdgeInsets.only(left: 10),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(
+                                const Text(
                                   "Werksection",
                                   style: TextStyle(fontWeight: FontWeight.bold),
                                 ),
-                                Text(
+                                const Text(
                                   "AdSets - Product Information, subject to copyrigh",
                                   style: TextStyle(fontWeight: FontWeight.w300),
                                 ),
                                 RatingBarIndicator(
                                   rating: 3.6,
-                                  itemBuilder: (context, index) => Icon(
+                                  itemBuilder: (context, index) => const Icon(
                                     Icons.star,
                                     color: Colors.orange,
                                   ),
@@ -101,7 +101,7 @@ class _offerdetailsState extends State<offerdetails> {
                 ),
               ],
             ),
-            Text("Steps(1/4)"),
+            const Text("Steps(1/4)"),
             Container(
               margin: EdgeInsets.symmetric(
                   horizontal: MediaQuery.sizeOf(context).width * 0.03),
@@ -110,7 +110,7 @@ class _offerdetailsState extends State<offerdetails> {
                   borderRadius: BorderRadius.circular(30)),
               child: ListTile(
                 onTap: () {},
-                leading: Icon(
+                leading: const Icon(
                   Icons.check_circle,
                   color: Colors.green,
                 ),
@@ -118,17 +118,17 @@ class _offerdetailsState extends State<offerdetails> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text(
+                    const Text(
                       "Install The Application",
                       style: TextStyle(decoration: TextDecoration.lineThrough),
                     ),
-                    Spacer(),
+                    const Spacer(),
                     TextButton(
                       style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all(Colors.green)),
                       onPressed: () {},
-                      child: Text(
+                      child: const Text(
                         "20",
                         style: TextStyle(color: Colors.white),
                       ),
@@ -148,7 +148,7 @@ class _offerdetailsState extends State<offerdetails> {
                   borderRadius: BorderRadius.circular(15)),
               child: ListTile(
                 onTap: () {},
-                leading: Icon(
+                leading: const Icon(
                   Icons.hourglass_empty,
                   color: Colors.orange,
                 ),
@@ -156,21 +156,21 @@ class _offerdetailsState extends State<offerdetails> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text("Complete 3 offers"),
-                    Spacer(),
+                    const Text("Complete 3 offers"),
+                    const Spacer(),
                     TextButton(
                       style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all(Colors.orange)),
                       onPressed: () {},
-                      child: Text(
+                      child: const Text(
                         "20",
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
                   ],
                 ),
-                subtitle: Text("Description"),
+                subtitle: const Text("Description"),
               ),
             ),
             SizedBox(
@@ -185,7 +185,7 @@ class _offerdetailsState extends State<offerdetails> {
                   borderRadius: BorderRadius.circular(30)),
               child: ListTile(
                 onTap: () {},
-                leading: Icon(
+                leading: const Icon(
                   Icons.circle,
                   color: Colors.grey,
                 ),
@@ -193,16 +193,16 @@ class _offerdetailsState extends State<offerdetails> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text(
+                    const Text(
                       "Refer Workstation to friend",
                     ),
-                    Spacer(),
+                    const Spacer(),
                     TextButton(
                       style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all(Colors.white)),
                       onPressed: () {},
-                      child: Text(
+                      child: const Text(
                         "20",
                         style: TextStyle(color: Colors.blue),
                       ),
@@ -223,7 +223,7 @@ class _offerdetailsState extends State<offerdetails> {
                   borderRadius: BorderRadius.circular(30)),
               child: ListTile(
                 onTap: () {},
-                leading: Icon(
+                leading: const Icon(
                   Icons.circle,
                   color: Colors.grey,
                 ),
@@ -231,16 +231,16 @@ class _offerdetailsState extends State<offerdetails> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text(
+                    const Text(
                       "Refer Workstation to friend",
                     ),
-                    Spacer(),
+                    const Spacer(),
                     TextButton(
                       style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all(Colors.white)),
                       onPressed: () {},
-                      child: Text(
+                      child: const Text(
                         "20",
                         style: TextStyle(color: Colors.blue),
                       ),
@@ -249,8 +249,8 @@ class _offerdetailsState extends State<offerdetails> {
                 ),
               ),
             ),
-            Spacer(),
-            Text(
+            const Spacer(),
+            const Text(
               "22,587 Users has already participated",
               style: TextStyle(color: Colors.orange),
             ),
@@ -266,7 +266,7 @@ class _offerdetailsState extends State<offerdetails> {
                 style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(Colors.blue)),
                 onPressed: () {},
-                child: Text(
+                child: const Text(
                   "Get Rs 364",
                   style: TextStyle(color: Colors.white),
                 ),
