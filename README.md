@@ -13,16 +13,17 @@ BestDeal is a Flutter mobile application that provides users with the best deals
 ## Screenshots
 
 ### Dashboard Page
-![Dashboard_page](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-02-15.jpg)
+![Dashboard](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-03-14.jpg)
+
 
 
 ### Offerdetails Page
 
-![Offerpage](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-03-14.jpg)
+![offerdetails](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-02-15.jpg)
 
 ### Demo Video
 
-[![Demo Video](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-02-15.jpg)](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/video_2024-01-26_15-03-20.mp4)
+[![Demo Video](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-03-14.jpg)](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/video_2024-01-26_15-03-20.mp4)
 ### Prerequisites
 
 - Ensure you have Flutter installed. If not, follow the [official installation guide](https://flutter.dev/docs/get-started/install).
