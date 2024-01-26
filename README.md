@@ -16,6 +16,15 @@ Include screenshots or gifs showcasing different aspects of your application. Yo
 
 ### Dashboard Page
 ![Dashboard_page](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-02-15.jpg)
+
+
+### Offerdetails Page
+
+![Offerpage](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-03-14.jpg)
+
+### Demo Video
+
+
 ### Prerequisites
 
 - Ensure you have Flutter installed. If not, follow the [official installation guide](https://flutter.dev/docs/get-started/install).
