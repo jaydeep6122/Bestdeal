@@ -12,8 +12,6 @@ BestDeal is a Flutter mobile application that provides users with the best deals
 
 ## Screenshots
 
-Include screenshots or gifs showcasing different aspects of your application. You can create a dedicated folder for images and reference them in your README.
-
 ### Dashboard Page
 ![Dashboard_page](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-02-15.jpg)
 
