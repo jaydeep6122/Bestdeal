@@ -24,7 +24,7 @@ Include screenshots or gifs showcasing different aspects of your application. Yo
 
 ### Demo Video
 
-
+[![Demo Video](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-02-15.jpg)](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/video_2024-01-26_15-03-20.mp4)
 ### Prerequisites
 
 - Ensure you have Flutter installed. If not, follow the [official installation guide](https://flutter.dev/docs/get-started/install).
@@ -34,4 +34,4 @@ Include screenshots or gifs showcasing different aspects of your application. Yo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/bestdeal-flutter.git
+   git clone https://github.com/jaydeep6122/bestdeal-flutter.git
