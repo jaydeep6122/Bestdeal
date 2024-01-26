@@ -1,17 +1,28 @@
-# bestdeal
+# BestDeal Flutter Application
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+BestDeal is a Flutter mobile application that provides users with the best deals on a variety of products. This app aims to make top deals available in different categories.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Browse and discover the latest deals across various product categories.
+- View detailed information about each deal, including product descriptions, prices, and discounts.
+-User Wallet Balance
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Bestdeal
+Include screenshots or gifs showcasing different aspects of your application. You can create a dedicated folder for images and reference them in your README.
+
+### Dashboard Page
+![Dashboard_page](https://github.com/jaydeep6122/Bestdeal/blob/main/Screenshot/photo_2024-01-26_15-02-15.jpg)
+### Prerequisites
+
+- Ensure you have Flutter installed. If not, follow the [official installation guide](https://flutter.dev/docs/get-started/install).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/bestdeal-flutter.git
